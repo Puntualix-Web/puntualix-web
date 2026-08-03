@@ -95,7 +95,7 @@ import TarjetaFlotante from '@/components/TarjetaFlotante.vue'
             <!--Enlace de ayuda.
                 Vista aún no existe -> se queda como href pendiente -->
             <aside class="ayuda-cuenta">
-                <p><a href="">¿Tienes problemas con tu cuenta?</a></p>
+                <router-link to="/dashboardInstructor"><p>¿Tienes problemas con tu cuenta?</p></router-link>
             </aside>
         </TarjetaFlotante>
 
