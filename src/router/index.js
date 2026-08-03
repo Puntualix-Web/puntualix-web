@@ -13,12 +13,7 @@ const router = createRouter({
       path: '/olvido-password',
       name: 'olvido-password',
       component: () => import('../views/autenticacion/OlvidoPassword.vue')
-    },
-    {
-      path: '/dashboardInstructor',
-      name: 'ayuda-cuenta',
-      component: () => import('../views/autenticacion/dashboard_instructor/dashboardInstructor.vue')
-    }
+    },    
   ],
 })
 

@@ -95,7 +95,7 @@ import TarjetaFlotante from '@/components/TarjetaFlotante.vue'
             <!--Enlace de ayuda.
                 Vista aún no existe -> se queda como href pendiente -->
             <aside class="ayuda-cuenta">
-                <router-link to="/dashboardInstructor"><p>¿Tienes problemas con tu cuenta?</p></router-link>
+                <p>¿Tienes problemas con tu cuenta?</p>
             </aside>
         </TarjetaFlotante>
 
@@ -111,7 +111,7 @@ import TarjetaFlotante from '@/components/TarjetaFlotante.vue'
                     Tu información está protegida con los más altos estándares de seguridad.
                 </small>
             </section>
-
+                    
             <!--Derechos reservados-->
             <section class="copyright">
                 <small>© 2026 PuntualiX. Todos los derechos reservados.</small>
